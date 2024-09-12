@@ -1,0 +1,15 @@
+2024-09-11 11:22:22.950669+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE_URL CHARACTER VARYING(8000)": "'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUUExMWFhUXGBcY... (14907)"; SQL statement:
+insert into products (description,image_url,price,title,id) values (?,?,?,?,?) [22001-224]
+2024-09-12 08:27:14.764649+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select [*]|from PRODUCTS"; SQL statement:
+select |from PRODUCTS [42000-224]
+2024-09-12 08:58:42.886797+02:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'Tropical Treat Juice is a refreshing blend of exotic fruits like mango, pineapp... (311)"; SQL statement:
+insert into products (description,image_url,price,title,id) values (?,?,?,?,?) [22001-224]
+2024-09-12 08:59:36.438040+02:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'Tropical Treat Juice is a refreshing blend of exotic fruits like mango, pineapp... (311)"; SQL statement:
+insert into products (description,image_url,price,title,id) values (?,?,?,?,?) [22001-224]
+2024-09-12 09:00:38.824132+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'Tropical Treat Juice is a refreshing blend of exotic fruits like mango, pineapp... (311)"; SQL statement:
+insert into products (description,image_url,price,title,id) values (?,?,?,?,?) [22001-224]
